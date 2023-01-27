@@ -2685,11 +2685,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\WeatherApp.API\\WeatherApp.API\\WeatherApp.API.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\WeatherAPI\\WeatherApp.API\\WeatherApp.API.csproj",
       "projectName": "WeatherApp.API",
-      "projectPath": "C:\\Users\\User\\source\\repos\\WeatherApp.API\\WeatherApp.API\\WeatherApp.API.csproj",
+      "projectPath": "C:\\Users\\User\\Documents\\WeatherAPI\\WeatherApp.API\\WeatherApp.API.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\WeatherApp.API\\WeatherApp.API\\obj\\",
+      "outputPath": "C:\\Users\\User\\Documents\\WeatherAPI\\WeatherApp.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2711,14 +2711,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\User\\source\\repos\\WeatherApp.API\\Application\\WeatherApp.Application.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\WeatherApp.API\\Application\\WeatherApp.Application.csproj"
+            "C:\\Users\\User\\Documents\\WeatherAPI\\Application\\WeatherApp.Application.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\WeatherAPI\\Application\\WeatherApp.Application.csproj"
             },
-            "C:\\Users\\User\\source\\repos\\WeatherApp.API\\WeatherApp.Persistence\\WeatherApp.Persistence.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\WeatherApp.API\\WeatherApp.Persistence\\WeatherApp.Persistence.csproj"
+            "C:\\Users\\User\\Documents\\WeatherAPI\\WeatherApp.Persistence\\WeatherApp.Persistence.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\WeatherAPI\\WeatherApp.Persistence\\WeatherApp.Persistence.csproj"
             },
-            "C:\\Users\\User\\source\\repos\\WeatherApp.API\\WeatherApp.Services\\WeatherApp.Services.csproj": {
-              "projectPath": "C:\\Users\\User\\source\\repos\\WeatherApp.API\\WeatherApp.Services\\WeatherApp.Services.csproj"
+            "C:\\Users\\User\\Documents\\WeatherAPI\\WeatherApp.Services\\WeatherApp.Services.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\WeatherAPI\\WeatherApp.Services\\WeatherApp.Services.csproj"
             }
           }
         }

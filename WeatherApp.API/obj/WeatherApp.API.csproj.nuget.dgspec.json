@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\WeatherApp.API\\WeatherApp.API\\WeatherApp.API.csproj": {}
+    "C:\\Users\\User\\Documents\\WeatherAPI\\WeatherApp.API\\WeatherApp.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\WeatherApp.API\\Application\\WeatherApp.Application.csproj": {
+    "C:\\Users\\User\\Documents\\WeatherAPI\\Application\\WeatherApp.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\WeatherApp.API\\Application\\WeatherApp.Application.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\WeatherAPI\\Application\\WeatherApp.Application.csproj",
         "projectName": "WeatherApp.Application",
-        "projectPath": "C:\\Users\\User\\source\\repos\\WeatherApp.API\\Application\\WeatherApp.Application.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\WeatherAPI\\Application\\WeatherApp.Application.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\WeatherApp.API\\Application\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\WeatherAPI\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\WeatherApp.API\\Domain\\WeatherApp.Domain.csproj": {
+    "C:\\Users\\User\\Documents\\WeatherAPI\\Domain\\WeatherApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\WeatherApp.API\\Domain\\WeatherApp.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\WeatherAPI\\Domain\\WeatherApp.Domain.csproj",
         "projectName": "WeatherApp.Domain",
-        "projectPath": "C:\\Users\\User\\source\\repos\\WeatherApp.API\\Domain\\WeatherApp.Domain.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\WeatherAPI\\Domain\\WeatherApp.Domain.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\WeatherApp.API\\Domain\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\WeatherAPI\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -130,14 +130,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\WeatherApp.API\\SharedKernel\\WeatherApp.SharedKernel.csproj": {
+    "C:\\Users\\User\\Documents\\WeatherAPI\\SharedKernel\\WeatherApp.SharedKernel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\WeatherApp.API\\SharedKernel\\WeatherApp.SharedKernel.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\WeatherAPI\\SharedKernel\\WeatherApp.SharedKernel.csproj",
         "projectName": "WeatherApp.SharedKernel",
-        "projectPath": "C:\\Users\\User\\source\\repos\\WeatherApp.API\\SharedKernel\\WeatherApp.SharedKernel.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\WeatherAPI\\SharedKernel\\WeatherApp.SharedKernel.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\WeatherApp.API\\SharedKernel\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\WeatherAPI\\SharedKernel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -196,14 +196,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\WeatherApp.API\\WeatherApp.API\\WeatherApp.API.csproj": {
+    "C:\\Users\\User\\Documents\\WeatherAPI\\WeatherApp.API\\WeatherApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\WeatherApp.API\\WeatherApp.API\\WeatherApp.API.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\WeatherAPI\\WeatherApp.API\\WeatherApp.API.csproj",
         "projectName": "WeatherApp.API",
-        "projectPath": "C:\\Users\\User\\source\\repos\\WeatherApp.API\\WeatherApp.API\\WeatherApp.API.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\WeatherAPI\\WeatherApp.API\\WeatherApp.API.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\WeatherApp.API\\WeatherApp.API\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\WeatherAPI\\WeatherApp.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -225,14 +225,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\WeatherApp.API\\Application\\WeatherApp.Application.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\WeatherApp.API\\Application\\WeatherApp.Application.csproj"
+              "C:\\Users\\User\\Documents\\WeatherAPI\\Application\\WeatherApp.Application.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\WeatherAPI\\Application\\WeatherApp.Application.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\WeatherApp.API\\WeatherApp.Persistence\\WeatherApp.Persistence.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\WeatherApp.API\\WeatherApp.Persistence\\WeatherApp.Persistence.csproj"
+              "C:\\Users\\User\\Documents\\WeatherAPI\\WeatherApp.Persistence\\WeatherApp.Persistence.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\WeatherAPI\\WeatherApp.Persistence\\WeatherApp.Persistence.csproj"
               },
-              "C:\\Users\\User\\source\\repos\\WeatherApp.API\\WeatherApp.Services\\WeatherApp.Services.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\WeatherApp.API\\WeatherApp.Services\\WeatherApp.Services.csproj"
+              "C:\\Users\\User\\Documents\\WeatherAPI\\WeatherApp.Services\\WeatherApp.Services.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\WeatherAPI\\WeatherApp.Services\\WeatherApp.Services.csproj"
               }
             }
           }
@@ -297,14 +297,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\WeatherApp.API\\WeatherApp.Persistence\\WeatherApp.Persistence.csproj": {
+    "C:\\Users\\User\\Documents\\WeatherAPI\\WeatherApp.Persistence\\WeatherApp.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\WeatherApp.API\\WeatherApp.Persistence\\WeatherApp.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\WeatherAPI\\WeatherApp.Persistence\\WeatherApp.Persistence.csproj",
         "projectName": "WeatherApp.Persistence",
-        "projectPath": "C:\\Users\\User\\source\\repos\\WeatherApp.API\\WeatherApp.Persistence\\WeatherApp.Persistence.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\WeatherAPI\\WeatherApp.Persistence\\WeatherApp.Persistence.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\WeatherApp.API\\WeatherApp.Persistence\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\WeatherAPI\\WeatherApp.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -326,8 +326,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\WeatherApp.API\\Domain\\WeatherApp.Domain.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\WeatherApp.API\\Domain\\WeatherApp.Domain.csproj"
+              "C:\\Users\\User\\Documents\\WeatherAPI\\Domain\\WeatherApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\WeatherAPI\\Domain\\WeatherApp.Domain.csproj"
               }
             }
           }
@@ -371,14 +371,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\WeatherApp.API\\WeatherApp.Services\\WeatherApp.Services.csproj": {
+    "C:\\Users\\User\\Documents\\WeatherAPI\\WeatherApp.Services\\WeatherApp.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\WeatherApp.API\\WeatherApp.Services\\WeatherApp.Services.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\WeatherAPI\\WeatherApp.Services\\WeatherApp.Services.csproj",
         "projectName": "WeatherApp.Services",
-        "projectPath": "C:\\Users\\User\\source\\repos\\WeatherApp.API\\WeatherApp.Services\\WeatherApp.Services.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\WeatherAPI\\WeatherApp.Services\\WeatherApp.Services.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\WeatherApp.API\\WeatherApp.Services\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\WeatherAPI\\WeatherApp.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -400,8 +400,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\WeatherApp.API\\SharedKernel\\WeatherApp.SharedKernel.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\WeatherApp.API\\SharedKernel\\WeatherApp.SharedKernel.csproj"
+              "C:\\Users\\User\\Documents\\WeatherAPI\\SharedKernel\\WeatherApp.SharedKernel.csproj": {
+                "projectPath": "C:\\Users\\User\\Documents\\WeatherAPI\\SharedKernel\\WeatherApp.SharedKernel.csproj"
               }
             }
           }

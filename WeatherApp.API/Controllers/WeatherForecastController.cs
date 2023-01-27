@@ -12,12 +12,15 @@ namespace WeatherApp.API.Controllers
         private static readonly string[] Summaries = new[]{"Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"};
         private readonly IOpenApiService _openApiService;
         private readonly ILogger<WeatherForecastController> _logger;
+        private readonly IRapidAPIService _rapidApiService;
 
-        public WeatherForecastController(IOpenApiService openApiService, ILogger<WeatherForecastController> logger)
+        public WeatherForecastController(IOpenApiService openApiService, ILogger<WeatherForecastController> logger, IRapidAPIService rapidApiService)
         {
             _openApiService = openApiService;
             _logger = logger;
+            _rapidApiService = rapidApiService;
         }
+       
 
         [HttpGet]
         [Route("GetWeatherForecast")]
@@ -41,5 +44,14 @@ namespace WeatherApp.API.Controllers
             var result = await _openApiService.GetWeatherAsync(city);
             return Ok(result);
         }
+
+        [HttpGet]
+        [Route("GetWeatherForecastSummary")]
+        public async Task<IActionResult> GetWeatherForecastSummary(string cityName)
+        {
+            var result = await _rapidApiService.GetForecastSummaryByLocationName(cityName);
+            return Ok(result);
+        }
+       
     }
 }

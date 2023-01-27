@@ -10,3 +10,15 @@ C:\Users\User\source\repos\WeatherApp.API\SharedKernel\obj\Debug\net6.0\WeatherA
 C:\Users\User\source\repos\WeatherApp.API\SharedKernel\obj\Debug\net6.0\refint\WeatherApp.SharedKernel.dll
 C:\Users\User\source\repos\WeatherApp.API\SharedKernel\obj\Debug\net6.0\WeatherApp.SharedKernel.pdb
 C:\Users\User\source\repos\WeatherApp.API\SharedKernel\obj\Debug\net6.0\ref\WeatherApp.SharedKernel.dll
+C:\Users\User\Documents\WeatherAPI\SharedKernel\bin\Debug\net6.0\WeatherApp.SharedKernel.deps.json
+C:\Users\User\Documents\WeatherAPI\SharedKernel\bin\Debug\net6.0\WeatherApp.SharedKernel.dll
+C:\Users\User\Documents\WeatherAPI\SharedKernel\bin\Debug\net6.0\WeatherApp.SharedKernel.pdb
+C:\Users\User\Documents\WeatherAPI\SharedKernel\obj\Debug\net6.0\WeatherApp.SharedKernel.csproj.AssemblyReference.cache
+C:\Users\User\Documents\WeatherAPI\SharedKernel\obj\Debug\net6.0\WeatherApp.SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\WeatherAPI\SharedKernel\obj\Debug\net6.0\WeatherApp.SharedKernel.AssemblyInfoInputs.cache
+C:\Users\User\Documents\WeatherAPI\SharedKernel\obj\Debug\net6.0\WeatherApp.SharedKernel.AssemblyInfo.cs
+C:\Users\User\Documents\WeatherAPI\SharedKernel\obj\Debug\net6.0\WeatherApp.SharedKernel.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\WeatherAPI\SharedKernel\obj\Debug\net6.0\WeatherApp.SharedKernel.dll
+C:\Users\User\Documents\WeatherAPI\SharedKernel\obj\Debug\net6.0\refint\WeatherApp.SharedKernel.dll
+C:\Users\User\Documents\WeatherAPI\SharedKernel\obj\Debug\net6.0\WeatherApp.SharedKernel.pdb
+C:\Users\User\Documents\WeatherAPI\SharedKernel\obj\Debug\net6.0\ref\WeatherApp.SharedKernel.dll

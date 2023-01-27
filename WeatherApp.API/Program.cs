@@ -8,6 +8,7 @@ using System.Text;
 using WeatherApp.Persistence.AppContext;
 using WeatherApp.Persistence.Configurations;
 using WeatherApp.Services.OpenApiWeatherService;
+using WeatherApp.Services.WeatherServices;
 using WeatherApp.SharedKernel.HttpClientHelper;
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,6 +16,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddHttpClient<IHttpClientService, HttpClientService>();
 builder.Services.AddTransient<IOpenApiService, OpenApiService>();
+builder.Services.AddTransient<IRapidAPIService, RapidAPIService>();
 builder.Services.AddControllers();
 builder.Services.Configure<JwtConfig>(builder.Configuration.GetSection("JwtConfig"));
 

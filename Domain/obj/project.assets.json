@@ -821,11 +821,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\WeatherApp.API\\Domain\\WeatherApp.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\WeatherAPI\\Domain\\WeatherApp.Domain.csproj",
       "projectName": "WeatherApp.Domain",
-      "projectPath": "C:\\Users\\User\\source\\repos\\WeatherApp.API\\Domain\\WeatherApp.Domain.csproj",
+      "projectPath": "C:\\Users\\User\\Documents\\WeatherAPI\\Domain\\WeatherApp.Domain.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\WeatherApp.API\\Domain\\obj\\",
+      "outputPath": "C:\\Users\\User\\Documents\\WeatherAPI\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -10,3 +10,15 @@ C:\Users\User\source\repos\WeatherApp.API\Application\obj\Debug\net6.0\WeatherAp
 C:\Users\User\source\repos\WeatherApp.API\Application\obj\Debug\net6.0\refint\WeatherApp.Application.dll
 C:\Users\User\source\repos\WeatherApp.API\Application\obj\Debug\net6.0\WeatherApp.Application.pdb
 C:\Users\User\source\repos\WeatherApp.API\Application\obj\Debug\net6.0\ref\WeatherApp.Application.dll
+C:\Users\User\Documents\WeatherAPI\Application\bin\Debug\net6.0\WeatherApp.Application.deps.json
+C:\Users\User\Documents\WeatherAPI\Application\bin\Debug\net6.0\WeatherApp.Application.dll
+C:\Users\User\Documents\WeatherAPI\Application\bin\Debug\net6.0\WeatherApp.Application.pdb
+C:\Users\User\Documents\WeatherAPI\Application\obj\Debug\net6.0\WeatherApp.Application.csproj.AssemblyReference.cache
+C:\Users\User\Documents\WeatherAPI\Application\obj\Debug\net6.0\WeatherApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\WeatherAPI\Application\obj\Debug\net6.0\WeatherApp.Application.AssemblyInfoInputs.cache
+C:\Users\User\Documents\WeatherAPI\Application\obj\Debug\net6.0\WeatherApp.Application.AssemblyInfo.cs
+C:\Users\User\Documents\WeatherAPI\Application\obj\Debug\net6.0\WeatherApp.Application.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\WeatherAPI\Application\obj\Debug\net6.0\WeatherApp.Application.dll
+C:\Users\User\Documents\WeatherAPI\Application\obj\Debug\net6.0\refint\WeatherApp.Application.dll
+C:\Users\User\Documents\WeatherAPI\Application\obj\Debug\net6.0\WeatherApp.Application.pdb
+C:\Users\User\Documents\WeatherAPI\Application\obj\Debug\net6.0\ref\WeatherApp.Application.dll
