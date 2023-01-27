@@ -54,7 +54,7 @@ namespace WeatherApp.API.Controllers
 
                 if (isCreated.Succeeded)
                 {
-                    var jwtToken = GenerateJwtToken(newUser);
+                    var jwtToken = await GenerateJwtTokenAsync(newUser);
                     return Ok(new RegistrationResponse()
                     {
                         Success = true,
@@ -116,7 +116,7 @@ namespace WeatherApp.API.Controllers
                     });
                 }
 
-                var jwtToken = GenerateJwtToken(existingUser);
+                var jwtToken = await GenerateJwtTokenAsync(existingUser);
 
                 return Ok(new RegistrationResponse()
                 {
@@ -136,28 +136,71 @@ namespace WeatherApp.API.Controllers
         }
 
 
-        private string GenerateJwtToken(IdentityUser user)
+        private async Task<string> GenerateJwtTokenAsync(IdentityUser user)
         {
-            var jwtTokenHandler = new JwtSecurityTokenHandler();
-            var key = Encoding.ASCII.GetBytes(_jwtConfig.Secret);
+            var a = _jwtConfig.Secret;
+            var b = _jwtConfig.Issuer;
+            var c = _jwtConfig.Audience;
 
-            var tokenDescriptor = new SecurityTokenDescriptor
+
+
+            var jwtTokenHandler = new JwtSecurityTokenHandler();
+
+            var claims = new List<Claim>()
             {
-                Subject = new ClaimsIdentity(new Claim[]
-                {
                     new Claim("Id", user.Id),
+                    new Claim(JwtRegisteredClaimNames.Email, user.Email),
                     new Claim(JwtRegisteredClaimNames.Sub, user.Email),
                     new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
-                }),
-                Expires = DateTime.UtcNow.AddHours(6),
-                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
             };
 
-            var token = jwtTokenHandler.CreateToken(tokenDescriptor);
-            var jwtToken = jwtTokenHandler.WriteToken(token);
 
+            var roles = await _userManager.GetRolesAsync(user);
+
+            foreach (var role in roles)
+            {
+                claims.Add(new Claim(ClaimTypes.Role, role));
+            }
+
+            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtConfig.Secret));
+
+            var token = new JwtSecurityToken(
+                audience: _jwtConfig.Audience,
+                issuer: _jwtConfig.Issuer,
+                claims: claims,
+                expires: DateTime.Now.AddHours(1),
+                signingCredentials: new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256)
+            );
+            
+            var jwtToken = jwtTokenHandler.WriteToken(token);
             return jwtToken;
         }
+
+
+        /*private string GenerateToken(UserViewModel loginViewModel)
+        {
+            var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:SecretKey"]));
+            var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
+
+            var claims = new[]
+            {
+            new Claim(JwtRegisteredClaimNames.Sub, loginViewModel.UserName),
+            new Claim("fullName", loginViewModel.FirstName + " " + loginViewModel.LastName),
+            new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+            new Claim(JwtRegisteredClaimNames.Aud, _configuration["Jwt:Audience"]),
+            new Claim(JwtRegisteredClaimNames.Iss, _configuration["Jwt:Issuer"])
+        };
+
+            var token = new JwtSecurityToken(
+                issuer: _configuration["Issuer"],
+                audience: _configuration["Audience"],
+                claims: claims,
+                expires: DateTime.Now.AddMonths(2),
+                signingCredentials: credentials
+                );
+
+            return new JwtSecurityTokenHandler().WriteToken(token);
+        }*/
 
     }
 }

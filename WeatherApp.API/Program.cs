@@ -19,18 +19,22 @@ builder.Services.AddTransient<IOpenApiService, OpenApiService>();
 builder.Services.AddTransient<IRapidAPIService, RapidAPIService>();
 builder.Services.AddControllers();
 builder.Services.Configure<JwtConfig>(builder.Configuration.GetSection("JwtConfig"));
+builder.Services.AddAuthorization();
+builder.Services.AddAuthentication();
 
 builder.Services.AddDbContext<WeatherAppDBContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+var t = builder.Configuration["JwtConfig:Issuer"];
+var d = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JwtConfig:Secret"]));
+
 var tokenValidationParameters = new TokenValidationParameters
 {
-    ValidateIssuer = true,
-    ValidateAudience = true,
+    ValidateIssuer = false,
     ValidateLifetime = true,
     ValidateIssuerSigningKey = true,
-    //ValidIssuer = builder.Configuration["JwtConfig:Issuer"],
-    //ValidAudience = builder.Configuration["JwtConfig:Issuer"],
+    ValidateAudience = false,
+    ValidIssuer = builder.Configuration["JwtConfig:Issuer"],
     IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["JwtConfig:Secret"]))
 };
 builder.Services.AddAuthentication(options =>
@@ -68,7 +72,7 @@ builder.Services.AddSwaggerGen( option =>
         In = ParameterLocation.Header,
         Description = "Please enter a valid token",
         Name = "Authorization",
-        Type = SecuritySchemeType.Http,
+        Type = SecuritySchemeType.ApiKey,
         BearerFormat = "JWT",
         Scheme = "Bearer"
     });

@@ -37,7 +37,6 @@ namespace WeatherApp.API.Controllers
         }
 
         [HttpGet]
-        [Authorize]
         [Route("GetCurrentWeather")]
         public async Task<IActionResult> GetCurrentWeather(string city)
         {
@@ -47,6 +46,7 @@ namespace WeatherApp.API.Controllers
 
         [HttpGet]
         [Route("GetWeatherForecastSummary")]
+        [Authorize(AuthenticationSchemes = "Bearer")]
         public async Task<IActionResult> GetWeatherForecastSummary(string cityName)
         {
             var result = await _rapidApiService.GetForecastSummaryByLocationName(cityName);
